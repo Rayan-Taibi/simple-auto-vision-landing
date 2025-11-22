@@ -5,10 +5,23 @@
     align-items: center;
 }
 .nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav-logo > span{
     color: white;
     font-family: Outfit;
-    font-size: 32px;
-    font-weight: 500;
+    font-size: 38px;
+    font-weight: 600;
+}
+.nav-logo > img{
+    width: 90px;
+    height: 90px;
+}
+.nav-logo:hover{
+    scale: 1.1;
+    cursor: pointer;
 }
 .nav-menu{
     display: flex;
